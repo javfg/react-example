@@ -1,0 +1,35 @@
+// Add place error.
+.addPlace-error {
+    color: $off-white;
+    font-style: italic;
+    margin: $m-size 0 0 0;
+    padding: 0 $m-size;
+}
+
+
+// Add place box.
+.addPlace {
+    display: flex;
+    flex-direction: row;
+    padding: $m-size;
+}
+
+.addPlace__input {
+    background: $dark-blue;
+    border: none;
+    color: $off-white;
+    border-bottom: .3rem solid darken($dark-blue, 10%);
+    flex-grow: 1;
+    margin: 0 $s-size 0 0;
+    padding: $s-size;
+}
+
+@media (max-width: $mobile-breakpoint) {
+    .addPlace {
+        flex-direction: column;
+    }
+
+    .addPlace__input {
+        margin: 0 0 $s-size 0;
+    }
+}
