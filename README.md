@@ -7,7 +7,9 @@ This app shows a basic web UI to help you decide where to travel based on the we
 * Usage of async/await syntax.
 
 # Get it running
-```npm i; npm start```
+1. Replace `<YOUR_OPENWEATHERMAP_APIKEY_HERE>` with a working api key in the file `secrets.js`.
+
+2. ```npm i; npm start```
 
 # What is missing?
 
